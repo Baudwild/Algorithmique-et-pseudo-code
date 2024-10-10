@@ -1,8 +1,8 @@
-début acheterdesBonbons (Nombre bonbons, prix bonbon)
+début acheterdesBonbons (Bonbons, argent)
 
-    Tant que Bonbons < 10
-        Bonbons ← Bonbons + 1
-    Fin Tant que
+    Tant que Bonbons < argent
+	Bonbons <- Bonbons + 1
+Fin Tant que
     retourner Bonbons 
 
-fin but atteint nombre de Bonbons
+fin acheterdesBonbons
