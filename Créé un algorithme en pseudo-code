@@ -1,0 +1,8 @@
+début acheterdesBonbons (Bonbons, argent)
+
+    Tant que Bonbons < 10
+        Bonbons ← Bonbons + 1
+    Fin Tant que
+    retourner Bonbons 
+
+fin acheterdesBonbons
