@@ -1,8 +1,10 @@
-début acheterdesBonbons (Bonbons, argent)
+début acheterdesBonbons (Prix, argent)
 
-    Tant que Bonbons < argent
+Bonbon = 0
+
+    Tant que Prix < argent
 	Bonbons <- Bonbons + 1
+
 Fin Tant que
     retourner Bonbons 
-
 fin acheterdesBonbons
