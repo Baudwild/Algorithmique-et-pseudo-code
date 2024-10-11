@@ -1,6 +1,6 @@
 début acheterdesBonbons (Prix, argent)
 
-Bonbon = 0
+Bonbons = 0
 
     Tant que Prix < argent
 	Bonbons <- Bonbons + 1
