@@ -3,6 +3,7 @@ début acheterdesBonbons (Prix, argent)
 Bonbons = 0
 
     Tant que Prix < argent
+	argent ← argent - prix
 	Bonbons <- Bonbons + 1
 
 Fin Tant que
