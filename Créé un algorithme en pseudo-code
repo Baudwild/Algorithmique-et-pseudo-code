@@ -1,11 +1,13 @@
-début acheterdesBonbons (Prix, argent)
+début nombredebonbons (Prix, argent)
 
-Bonbons = 0
+réel argent = montant disponible
+réel prix = prix unitaire du bonbon
+entier nombredebonbons ← 0
 
     Tant que Prix < argent
 	argent ← argent - prix
-	Bonbons <- Bonbons + 1
+	nombredebonbons <- nombredebonbons + 1
 
 Fin Tant que
-    retourner Bonbons 
-fin acheterdesBonbons
+    retourner nombredebonbons 
+fin nombredebonbons 
